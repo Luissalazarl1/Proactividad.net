@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fdfdfd;
+}
+
+.header{
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+}
+
+.nav {
+    text-align: center;
+}
+
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4a4a4a;
+    
+}
+
+.cambio{
+    display: inline-block;
+    color: #5dade2;
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+
+.container__parte__principal{
+   
+    padding-top: 60px;
+
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: 46% 46% ;
+    gap: 10px;
+    place-items: center;
+    text-align: center;
+    
+  
+}
+
+.container__grid__base{
+    padding-left: 52px;
+}
+
+.imagen{
+    position: relative;
+    top: 18px;
+    max-width: 100%;
+    width: 23%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.06);
+}
+
+h2 {
+    color: #4a4a4a;
+    position: relative;
+    top: 20px;
+}
+
+.texto {
+    text-align: justify;
+    font-size: 15px;
+    max-width: 80%;
+    position: relative;
+    left: 37px;
+    color: #4a4a4a;
+    top: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+    color: #4a4a4a;
+    bottom: 0;
+}
+
+
+
+
+.card{
+    
+    background-color: white;
+    box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+    height: 45vh;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+
+    .container__grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__grid{
+        display: grid;
+        grid-template-columns: 50% ;
+        gap: 10px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 120%;
+        place-items: center;
+        
+        
+     
+    }
+
+    .container__grid__base{
+        padding-left: 0px;
+    }
+    
+    .texto {
+        text-align: justify;
+        font-size: 15px;
+        max-width: 79%;
+        position: relative;
+        left: 30px;
+        color: #4a4a4a;
+        top: 25px;
+    }
+    
+    
+    .imagen{
+        max-width: 100%;
+        width: 23%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card{
+    
+        background-color: white;
+        box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+        height: 54vh;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 150%;
+        
+    }
+
+    
+
+    
+}
