@@ -146,9 +146,7 @@ footer {
      
     }
 
-    .container__grid__base{
-        padding-left: 0px;
-    }
+    
     
     .texto {
         text-align: justify;
@@ -191,4 +189,85 @@ footer {
     
 
     
+}
+
+
+@media only screen and (max-width: 667px) {
+
+    .container__grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__grid{
+        display: grid;
+        grid-template-columns: 55% ;
+        gap: 10px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 120%;
+        place-items: center;
+        
+        
+     
+    }
+
+    h2 {
+        color: #4a4a4a;
+        position: relative;
+        top: 20px;
+        text-align: center;
+    }
+
+    
+    
+    .texto {
+        text-align: left;
+        font-size: 15px;
+        max-width: 79%;
+        position: relative;
+        left: 30px;
+        color: #4a4a4a;
+        top: 25px;
+    }
+    
+    
+    .imagen{
+        max-width: 100%;
+        width: 23%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card{
+    
+        background-color: white;
+        box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+        height: 48vh;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 150%;
+        
+    }
+
+    
+    ul li a {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #4a4a4a;
+        
+    }
+
+    footer {
+        text-align: center;
+        padding: 60px;
+        background-color: #fff;
+        color: #4a4a4a;
+        bottom: 0;
+        
+    }
+
+
 }
