@@ -66,13 +66,13 @@ h3{
     gap: 10px;
     place-items: center;
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     
   
 }
 
-.container__grid__base{
-    padding-left: 52px;
-}
 
 .imagen{
     position: relative;
