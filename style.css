@@ -172,10 +172,19 @@ footer {
     
         background-color: white;
         box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
-        height: 54vh;
+        height: 36vh;
         border-radius: 8px;
         cursor: pointer;
         width: 150%;
+        
+    }
+    
+     ul li a {
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #4a4a4a;
         
     }
 
