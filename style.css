@@ -16,6 +16,9 @@ body{
     background-color: #fff;
     padding: 35px;
     box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 .nav {
@@ -56,7 +59,7 @@ h3{
 
 .container__parte__principal{
    
-    padding-top: 60px;
+    padding-top: 160px;
 
 }
 
