@@ -346,6 +346,14 @@ footer {
         
      
     }
+    
+     #button-up{
+       display: none;
+    }
+    
+    #button-up:hover{
+        display: none;
+    }
 
     h2 {
         color: #4a4a4a;
